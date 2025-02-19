@@ -34,6 +34,18 @@
           },
           "type": "Compose",
           "inputs": 1
+        },
+        "Compose_2": {
+          "runAfter": {
+            "Compose": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "ea054d3c-651b-45e3-b91d-7393d77cefda"
+          },
+          "type": "Compose",
+          "inputs": 3
         }
       }
     },
