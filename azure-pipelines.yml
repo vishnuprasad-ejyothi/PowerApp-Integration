@@ -21,6 +21,5 @@ steps:
   displayName: 'Display GitHub remote details'
 
 - script: |
-    git remote add github https://vishnuprasad-ejyothi:$(GITHUB_PAT)@github.com/vishnuprasad-ejyothi/PowerApp-Integration.git
     git --verbose push github dev
   displayName: 'Sync to github'
