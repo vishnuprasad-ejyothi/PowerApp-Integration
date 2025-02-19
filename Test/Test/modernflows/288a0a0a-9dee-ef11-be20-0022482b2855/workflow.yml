@@ -1,7 +1,7 @@
 Workflow:
   '@WorkflowId': '{288a0a0a-9dee-ef11-be20-0022482b2855}'
-  '@Name': Test flow
-  JsonFileName: /modernflows/288a0a0a-9dee-ef11-be20-0022482b2855/Testflow-288A0A0A-9DEE-EF11-BE20-0022482B2855.json
+  '@Name': Test flow-final
+  JsonFileName: /modernflows/288a0a0a-9dee-ef11-be20-0022482b2855/Testflow-final-288A0A0A-9DEE-EF11-BE20-0022482B2855.json
   Type: 1
   Subprocess: 0
   Category: 5
@@ -25,4 +25,4 @@ Workflow:
   LocalizedNames:
     LocalizedName:
       '@languagecode': 1033
-      '@description': Test flow
+      '@description': Test flow-final
