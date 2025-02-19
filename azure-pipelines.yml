@@ -15,4 +15,4 @@ steps:
 - script: |
     git remote add github https://vishnuprasad-ejyothi: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@github.com/vishnuprasad-ejyothi/PowerApp-Integration.git 
     git push github dev
-  displayName: 'Run a multi-line script'
+  displayName: 'Sync to github'
