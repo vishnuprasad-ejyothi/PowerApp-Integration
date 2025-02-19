@@ -16,11 +16,8 @@ steps:
 - checkout: self
 
 - script: |
+    git checkout -b dev origin/dev
     git branch
-  displayName: 'dev checkout'
-
-- script: |
-    git checkout dev
   displayName: 'dev checkout'
 
 - script: |
