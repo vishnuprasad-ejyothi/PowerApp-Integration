@@ -17,5 +17,5 @@ steps:
 
 - script: |
     git remote add github https://vishnuprasad-ejyothi:$(GITHUB_PAT)@github.com/vishnuprasad-ejyothi/PowerApp-Integration.git 
-    git push github dev
+    git remote show github
   displayName: 'Sync to github'
