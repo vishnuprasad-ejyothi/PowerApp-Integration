@@ -21,5 +21,6 @@ steps:
   displayName: 'Display GitHub remote details'
 
 - script: |
+    git checkout dev 
     GIT_TRACE=1 git push github dev
   displayName: 'Sync to github'
