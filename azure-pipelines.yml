@@ -14,5 +14,5 @@ steps:
 
 - script: |
     git remote add github https://github.com/vishnuprasad-ejyothi/PowerApp-Integration.git 
-    git push github main
+    git push --mirror github
   displayName: 'Run a multi-line script'
