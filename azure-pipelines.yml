@@ -15,6 +15,6 @@ steps:
 - script: |
     git config --global user.name "Azure DevOps"
     git config --global user.email "vishnuprasad.narayanan@ejyothi.com"
-    git remote add github https://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@github.com/vishnuprasad-ejyothi/PowerApp-Integration.git 
+    git remote add github https://vishnuprasad-ejyothi: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@github.com/vishnuprasad-ejyothi/PowerApp-Integration.git 
     git push github dev
   displayName: 'Run a multi-line script'
