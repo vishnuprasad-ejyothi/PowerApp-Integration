@@ -4,7 +4,7 @@
 # https://aka.ms/yaml
 
 trigger:
-- main
+- dev
 
 pool:
   vmImage: ubuntu-latest
@@ -16,5 +16,5 @@ steps:
     git config --global user.name "Azure DevOps"
     git config --global user.email "vishnuprasad.narayanan@ejyothi.com"
     git remote add github https://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@github.com/vishnuprasad-ejyothi/PowerApp-Integration.git 
-    git push github main
+    git push github dev
   displayName: 'Run a multi-line script'
